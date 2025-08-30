@@ -459,7 +459,7 @@ section {
     }
 }
 
-.case-card:hover .case-arrow {
+.case-card:hover .case-arrow, .case-card.slick-current .case-arrow {
     opacity: 1;
     transform: translateX(0);
     animation: arrowBounce 1s infinite alternate;
