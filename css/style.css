@@ -385,7 +385,7 @@ section {
 }
 
 .case-content {
-    padding: 0.625rem;
+    padding: 1rem;
 }
 
 @media (min-width: 992px) {
