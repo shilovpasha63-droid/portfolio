@@ -133,7 +133,7 @@ section {
 .hero {
     display: flex;
     align-items: center;
-    background: linear-gradient(rgba(67, 97, 238, 0.8), rgba(58, 12, 163, 0.8)), url('images/b24.png') no-repeat right center/cover;
+    background: linear-gradient(rgba(67, 97, 238, 0.8), rgba(58, 12, 163, 0.8)), url('/portfolio/images/b24.png') no-repeat right center/cover;
     color: white;
     text-align: center;
 }
