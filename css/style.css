@@ -342,14 +342,19 @@ section {
 }
 
 .service-card {
-    background: rgba(255, 255, 255, 0.95);
-    border-radius: 16px;
-    padding: 1.875rem 1.25rem;
-    text-align: center;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    cursor: pointer;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(10px);
+    padding: 0;
+}
+@media (min-width: 992px) {
+    .service-card {
+        background: rgba(255, 255, 255, 0.95);
+        border-radius: 16px;
+        padding: 1.875rem 1.25rem;
+        text-align: center;
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        cursor: pointer;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(10px);
+    }
 }
 
 .service-card:hover {
@@ -372,25 +377,42 @@ section {
 }
 
 .service-name {
-    font-size: 1rem;
-    font-weight: 600;
-    color: #1f2937;
-    margin-bottom: 8px;
+    display: none;
+}
+@media (min-width: 992px) {
+    .service-name {
+        font-size: 0.8rem;
+        font-weight: 600;
+        color: #1f2937;
+        margin-bottom: 8px;
+        display: block;
+    }
 }
 
 .service-description {
-    font-size: 12px;
-    color: #6b7280;
-    line-height: 1.4;
+    display: none;
+}
+@media (min-width: 992px) {
+    .service-description {
+        display: block;
+        font-size: 0.6rem;
+        color: #6b7280;
+        line-height: 1.4;
+    }
 }
 
 /* Специальные стили для текстовых логотипов */
 .text-logo {
     font-family: 'Arial Black', sans-serif;
     font-weight: 900;
-    font-size: 0.875rem;
+    font-size: 0.5rem;
     letter-spacing: -0.5px;
     line-height: 1.2;
+}
+@media (min-width: 992px) {
+    .text-logo {
+        font-size: 0.875rem;
+    }
 }
 
 .text-logo.small {
