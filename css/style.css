@@ -371,7 +371,7 @@ section {
 .service-icon {
     width: 3.75rem;
     height: 3.75rem;
-    margin: 0;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
