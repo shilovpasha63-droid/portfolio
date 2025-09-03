@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
     //прокрутка
-
+    /*
     let isAnimating = false;
     let currentSection = 0;
     const sections = $('section');
@@ -30,7 +30,7 @@ $(document).ready(function () {
             }
         );
     });
-    
+    */
     //слайдеры
     $('.cases-grid').slick({
         infinite: true,
